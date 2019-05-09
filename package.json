@@ -1,0 +1,33 @@
+{
+  "name": "gs1",
+  "version": "1.0.0",
+  "description": "gs1 checkdigit generation and validation",
+  "main": "index.js",
+  "dependencies": {
+    "tape": "^4.10.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wankdanker/gs1.git"
+  },
+  "keywords": [
+    "gs1",
+    "checkdigit",
+    "check",
+    "digit",
+    "upc",
+    "gtin",
+    "gsin",
+    "sscc"
+  ],
+  "author": "Dan VerWeire",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wankdanker/gs1/issues"
+  },
+  "homepage": "https://github.com/wankdanker/gs1#readme"
+}
