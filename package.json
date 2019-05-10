@@ -1,6 +1,6 @@
 {
   "name": "gs1",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "gs1 checkdigit generation and validation",
   "main": "index.js",
   "dependencies": {
