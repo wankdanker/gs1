@@ -29,9 +29,9 @@ function checkdigit (string) {
             
             return val * oddMultiplier
         })
-        .reduce((acc, val) => acc + val, 0)
+        .reduce((acc, val) => acc + val, 0);
     
-    return 10 - (sum % 10);
+    return (10 - (sum % 10)) % 10;
 }
 
 /**

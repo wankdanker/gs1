@@ -49,5 +49,8 @@ test('gtin-12', function (t) {
     //Test a number to make sure no errors occur.
     t.equal(gs1(1111111111111), '11111111111113');
 
+    //Test to validate issue #2
+    t.ok(gs1.validate('7350105160820'));
+
     t.end();
 });
